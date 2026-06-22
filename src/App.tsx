@@ -14,9 +14,15 @@ function App() {
       </div>
       <div className="buttons-container">
         {buttons.map((btn, index) => (
-          <a key={index} href={btn.url} target="_blank" rel="noopener noreferrer" className="action-button">
+          <button 
+            key={index} 
+            onClick={() => {
+              fetch(btn.url, { mode: 'no-cors' }).catch(console.error);
+            }} 
+            className="action-button"
+          >
             {btn.name}
-          </a>
+          </button>
         ))}
       </div>
     </div>

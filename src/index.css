@@ -84,6 +84,9 @@ body, html {
   transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
   -webkit-tap-highlight-color: transparent;
   user-select: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .action-button:active {
