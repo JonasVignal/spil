@@ -2,10 +2,10 @@ import './index.css'
 
 function App() {
   const buttons = [
-    { name: 'Vikings 1', url: '#' },
-    { name: 'Vikings 2', url: '#' },
-    { name: 'Generalen', url: '#' },
-    { name: 'Dr. Evil', url: '#' }
+    { name: 'Vikings 1', url: 'http://192.168.4.62:14999/start' },
+    { name: 'Vikings 2', url: 'http://192.168.4.253:14999/start' },
+    { name: 'Generalen', url: 'http://192.168.4.104:14999/start' },
+    { name: 'Dr. Evil', url: 'http://192.168.4.28:14999/start' }
   ];
 
   return (
