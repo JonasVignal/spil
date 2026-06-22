@@ -14,11 +14,11 @@ function App() {
       </div>
       <div className="buttons-container">
         {buttons.map((btn, index) => (
-          <button 
-            key={index} 
+          <button
+            key={index}
             onClick={() => {
               fetch(btn.url, { mode: 'no-cors' }).catch(console.error);
-            }} 
+            }}
             className="action-button"
           >
             {btn.name}
